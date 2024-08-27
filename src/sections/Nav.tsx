@@ -22,8 +22,8 @@ function Nav() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="flex h-16 items-center justify-between">
+          <div className="mx-auto max-w-7xl px-4 pb-10 pt-5 sm:px-6 lg:px-8">
+            <div className="mr-4 flex h-16 items-center justify-between">
               <div className="flex items-center">
                 <ButtonLink href="#" className="flex-shrink-0">
                   <img src={Logo} alt="logoCoffeeTech" className="h-8 w-auto" />
