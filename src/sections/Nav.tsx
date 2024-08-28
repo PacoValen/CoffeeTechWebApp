@@ -15,7 +15,7 @@ function Nav() {
     { href: "nosotros", children: "Nosotros" },
     { href: "contactenos", children: "Contactenos" },
     { href: "review", children: "Aliados" },
-    { href: "docs", children: "Documentacion" },
+    { href: "http://localhost:5173/documentacion", children: "Documentacion" },
   ];
 
   return (

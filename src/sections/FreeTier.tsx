@@ -3,6 +3,7 @@ import Plus from "../assets/icons/plus.png";
 import DolarSign from "../assets/icons/dollar.png";
 import PhotoFrames from "../assets/photosFrame.png";
 import TitleDes from "../common/TitleDes";
+import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 
 function FreeTier() {
   return (
@@ -68,6 +69,7 @@ function FreeTier() {
               Realiza detecciones de plagas, falta de nutrientes y estados de
               maduración en la planta.
             </p>
+            <StoreLinks type={BtnTypes.Standard} />
           </div>
 
           <div className="m-auto max-w-96 md:mt-36 md:w-1/2">
