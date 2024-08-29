@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="m-4 mx-auto flex w-full rounded-lg">
@@ -21,14 +23,14 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="/documentation" className="me-4 hover:underline md:me-6">
-              Documentacion
-            </a>
+            <Link to="/documentation" className="me-4 hover:underline md:me-6">
+              Documentación
+            </Link>
           </li>
           <li>
-            <a href="/download" className="hover:underline">
+            <Link to="/download" className="me-4 hover:underline md:me-6">
               Apk
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

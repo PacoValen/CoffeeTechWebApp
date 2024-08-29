@@ -19,7 +19,6 @@ function StoreLinks({ type }: StoreLinksProps) {
           upperText="Descarga Ahora "
           lowerText=".apk"
           logo={Apk}
-          target="_blank"
           className="flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800"
         />
       </div>

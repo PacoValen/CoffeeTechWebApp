@@ -14,7 +14,7 @@ function VideoPlayer() {
           />
           <div className="flex justify-center pt-8">
             <ButtonLink
-              href="http://localhost:5173/documentation"
+              href="/documentation"
               className="rounded-lg bg-customRed px-4 py-2 text-white"
             >
               Manual de usuario
