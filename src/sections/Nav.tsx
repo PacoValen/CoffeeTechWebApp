@@ -69,7 +69,7 @@ function Nav() {
               </DisclosureButton>
               <DisclosureButton
                 as="a"
-                href="#contact"
+                href="#capagratuita"
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900"
               >
                 Contáctenos
@@ -83,17 +83,17 @@ function Nav() {
               </DisclosureButton>
               <DisclosureButton
                 as={Link}
+                to="/documentation"
+                className={textLinkClasses} 
+              >
+                Documentación
+              </DisclosureButton>
+              <DisclosureButton
+                as={Link}
                 to="/download"
                 className="block rounded-md bg-gray-800 px-3 py-2 text-base font-medium text-white hover:bg-gray-900"
               >
                 Descargar CoffeeTech
-              </DisclosureButton>
-              <DisclosureButton
-                as={Link}
-                to="/documentation"
-                className={textLinkClasses} // Estilo de enlace normal
-              >
-                Documentación
               </DisclosureButton>
             </div>
           </DisclosurePanel>
