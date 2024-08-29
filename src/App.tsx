@@ -10,16 +10,16 @@ import VideoPlayer from "./sections/VideoPlayer";
 export default function App() {
   return (
     <Router>
-      <Nav />
       <Routes>
         <Route
           path="/"
           element={
             <>
+              <Nav />
               <Hero />
-              <Plots />
-              <VideoPlayer />
               <FreeTier />
+              <VideoPlayer />
+              <Plots />
             </>
           }
         />
