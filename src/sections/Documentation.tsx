@@ -1,6 +1,10 @@
+import Nav2 from '../common/Nav2';
+
 const Documentacion = () => {
   return (
-    <div className="p-8">
+    <>
+      <Nav2 />
+      <div className="p-8">
       <h1 className="text-3xl font-bold mb-4">Documentación</h1>
       <p className="text-lg mb-4">
         Aquí puedes encontrar toda la información necesaria sobre el uso y las características de nuestra aplicación.
@@ -25,6 +29,7 @@ const Documentacion = () => {
         </ul>
       </p>
     </div>
+    </>
   );
 };
 

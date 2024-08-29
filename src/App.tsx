@@ -9,10 +9,10 @@ import Documentation from './sections/Documentation';
 export default function App() {
   return (
     <Router>
-      <Nav />
       <Routes>
         <Route path="/" element={
           <>
+            <Nav />
             <Hero />
             <FreeTier />
             <Plots />
