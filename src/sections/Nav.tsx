@@ -13,27 +13,31 @@ function Nav() {
     "text-gray-500 hover:text-gray-900 active:text-gray-400";
 
   return (
-    <Disclosure as="nav">
+    <Disclosure as="nav" className="sticky top-0 z-50 bg-white shadow-md">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-4 pb-10 pt-5 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-4 pb-3 pt-3 sm:px-6 lg:px-8">
             <div className="mr-4 flex h-16 items-center justify-between">
               <div className="flex items-center">
                 <ButtonLink href="#" className="flex-shrink-0">
-                  <img src={Logo} alt="logoCoffeeTech" className="h-8 w-auto" />
+                  <img
+                    src={Logo}
+                    alt="logoCoffeeTech"
+                    className="h-20 w-auto"
+                  />
                 </ButtonLink>
               </div>
 
               {/* Menú de Links */}
               <div className="hidden items-center sm:flex sm:space-x-6">
-                <a href="#about" className={textLinkClasses}>
+                <a href="#video" className={textLinkClasses}>
                   Nosotros
                 </a>
-                <a href="#capagratuita" className={textLinkClasses}>
-                  Contáctenos
-                </a>
                 <a href="#partners" className={textLinkClasses}>
-                  Aliados
+                  Etapas
+                </a>
+                <a href="#capagratuita" className={textLinkClasses}>
+                  Soluciones
                 </a>
                 <Link to="/documentation" className={textLinkClasses}>
                   Documentación
@@ -86,7 +90,7 @@ function Nav() {
               <DisclosureButton
                 as={Link}
                 to="/documentation"
-                className={textLinkClasses} 
+                className={textLinkClasses}
               >
                 Documentación
               </DisclosureButton>

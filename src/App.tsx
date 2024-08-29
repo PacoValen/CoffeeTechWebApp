@@ -6,6 +6,7 @@ import Plots from "./sections/Plots";
 import Download from "./sections/Download";
 import Documentation from "./sections/Documentation";
 import VideoPlayer from "./sections/VideoPlayer";
+import Footer from "./common/Footer";
 
 export default function App() {
   return (
@@ -17,9 +18,10 @@ export default function App() {
             <>
               <Nav />
               <Hero />
-              <FreeTier />
               <VideoPlayer />
               <Plots />
+              <FreeTier />
+              <Footer />
             </>
           }
         />

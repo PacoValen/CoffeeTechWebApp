@@ -4,8 +4,8 @@ import ButtonLink from "../common/ButtonLink";
 
 function VideoPlayer() {
   return (
-    <section className="pb-5">
-      <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 px-6 pb-5 pt-10 lg:flex-row lg:px-8">
+    <section className="" id="video">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 px-6 pb-20 pt-20 lg:flex-row lg:px-8">
         {/* Sección de texto a la izquierda */}
         <div className="w-full lg:w-1/2">
           <TitleDes
@@ -23,8 +23,8 @@ function VideoPlayer() {
         </div>
 
         {/* Sección del video a la derecha */}
-        <div className="w-full lg:w-1/2">
-          <div className="pr-5">
+        <div className="w-full justify-center lg:w-1/2">
+          <div className="px-5">
             <ReactPlayer
               url="https://www.youtube.com/watch?v=BY1ERORYXzw"
               width="100%"

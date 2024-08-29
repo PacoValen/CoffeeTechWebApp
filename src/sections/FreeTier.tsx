@@ -9,21 +9,23 @@ function FreeTier() {
   return (
     <section
       id="capagratuita"
-      className="flex max-w-7xl flex-col gap-10 px-8 pt-10 lg:px-12 xl:m-auto xl:pt-20"
+      className="flex max-w-7xl flex-col gap-10 px-8 lg:px-12 xl:m-auto xl:pt-20"
     >
       <TitleDes
         title="Gestión eficiente, ágil y sofisticada"
-        description="Verifica la salud de tus lotes, programa labores culturales, <br /> colabora con tus trabajadores, genera reportes de costos."
+        description="En su capa gratuita CoffeeTech te ofrece todas las <br /> soluciones para el manejo inteligente de tus cultivos."
       />
 
       <article className="flex w-full flex-col gap-8 overflow-hidden xl:h-96 xl:flex-row">
         <div className="flex flex-col rounded-2xl bg-green-200 px-4 sm:px-0 md:flex-row md:gap-8 xl:w-2/3">
           <div className="mt-10 flex flex-col justify-center gap-4 text-center sm:mx-10 md:mx-0 md:ml-10 md:w-1/2 md:text-left">
             <h2 className="m-auto text-center text-3xl font-semibold text-gray-800 sm:w-[18ch] md:m-0 md:text-left">
-              Crea fincas y añade lotes
+              Gestiona tus fincas y lotes
             </h2>
             <p className="m-auto text-center text-gray-500 sm:w-[34ch] md:m-0 md:text-left">
-              Agrega hasta dos fincas y ocho lotes por cada finca.
+              Añade hasta dos fincas y tres lotes por finca. Realiza chequeos de
+              salud de manera periódica, asocia labores culturales, gastos e
+              ingresos a tus lotes.
             </p>
           </div>
 
@@ -41,7 +43,8 @@ function FreeTier() {
           </h2>
           <p className="text-gray-500">
             Asigna permisos y tareas a tus operadores en fincas y lotes
-            específicos.
+            específicos. Programa, asigna y registra el cumplimiento de las
+            labores culturales.
           </p>
         </div>
       </article>
@@ -52,11 +55,13 @@ function FreeTier() {
             <img src={DolarSign} alt="" className="max-h-12 max-w-12" />
           </div>
           <h2 className="text-3xl font-semibold text-gray-800">
-            Genera reportes de costos
+            Genera reportes de costos y rendimiento
           </h2>
           <p className="text-gray-500">
-            Visualiza y descarga informes de ingresos y gastos en fincas y lotes
-            por rango de tiempo.
+            Visualiza y descarga reportes de la utilidad neta en tus fincas y
+            lotes por rango de tiempo. Además genera un reporte del rendimiento
+            del café en base al peso del café en pergamino, pasilla y excelso al
+            final de la cadena de producción.
           </p>
         </div>
 
