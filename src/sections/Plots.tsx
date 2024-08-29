@@ -5,6 +5,7 @@ import Recoleccion from "../assets/recoleccion.png";
 
 function Plots() {
   return (
+    <section id="partners">
     <div className="bg-gray-100 py-24 sm:py-32">
       <TitleDes
         title="Trazabilidad para tus cultivos"
@@ -59,6 +60,7 @@ function Plots() {
         </dl>
       </div>
     </div>
+    </section>
   );
 }
 
