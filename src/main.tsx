@@ -15,12 +15,11 @@ createRoot(document.getElementById("root")!).render(
 );
  */
 
-// src/main.tsx
-import { StrictMode } from "react";
+/* import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import App from "./App";
-import Documentacion from "./pages/Documentation";
+import Documentacion from "./sections/Documentation";
 import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
@@ -31,5 +30,17 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/documentacion" element={<Documentacion />} />
       </Routes>
     </Router>
+  </StrictMode>,
+);
+ */
+
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App.tsx";
+import "./index.css";
+
+createRoot(document.getElementById("root")!).render(
+  <StrictMode>
+    <App />
   </StrictMode>,
 );
