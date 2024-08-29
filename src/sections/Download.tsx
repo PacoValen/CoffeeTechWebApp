@@ -6,9 +6,9 @@ function Download() {
         ¡Descarga la última versión de nuestra aplicación APK y lleva tu cultivo al siguiente nivel!
       </p>
       <a
-        href="/path/to/your/apk"
+        href="/app-debug.apk"
         className="px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700"
-        download
+        download="coffee-teach.apk"
       >
         Descargar APK
       </a>
