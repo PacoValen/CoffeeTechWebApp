@@ -26,7 +26,7 @@ function VideoPlayer() {
         <div className="w-full lg:w-1/2">
           <div className="pr-5">
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=2yMhjHURW5A"
+              url="https://www.youtube.com/watch?v=BY1ERORYXzw"
               width="100%"
             />
           </div>
