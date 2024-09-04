@@ -6,7 +6,7 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import Logo from "../assets/logoCoffeeTech.svg";
 import { Link } from "react-router-dom";
-import ButtonLink from "../common/ButtonLink";
+
 
 function Nav() {
   const textLinkClasses =
@@ -19,13 +19,13 @@ function Nav() {
           <div className="mx-auto max-w-7xl px-4 pb-3 pt-3 sm:px-6 lg:px-8">
             <div className="mr-4 flex h-16 items-center justify-between">
               <div className="flex items-center">
-                <ButtonLink href="#" className="flex-shrink-0">
+                
                   <img
                     src={Logo}
                     alt="logoCoffeeTech"
                     className="h-20 w-auto"
                   />
-                </ButtonLink>
+                
               </div>
 
               {/* Menú de Links */}
