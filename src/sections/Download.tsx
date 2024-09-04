@@ -1,6 +1,7 @@
 import Nav2 from '../common/Nav2';
 import { Download as DownloadIcon } from 'lucide-react'; // Asegúrate de que 'lucide-react' esté instalado
 import Logo from '../assets/copalogo.png'; // Verifica que la ruta y el nombre del archivo sean correctos
+import Footer2 from '../common/Footer2';
 
 const Download = () => {
   return (
@@ -26,6 +27,7 @@ const Download = () => {
           <p className="mt-8 text-sm text-gray-500">Versión 1.0.0 - Última actualización: Agosto 2024</p>
         </div>
       </section>
+      <Footer2 />
     </>
   );
 };
