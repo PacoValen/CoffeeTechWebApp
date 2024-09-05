@@ -13,10 +13,10 @@ export enum BtnTypes {
 function StoreLinks({ type }: StoreLinksProps) {
   if (type === BtnTypes.Standard) {
     return (
-      <div className="mt-10 hidden justify-center space-x-2 sm:flex md:justify-normal">
+      <div className="mt-10 flex justify-center space-x-2 sm:flex md:justify-normal">
         <StoreLink
           href="/download"
-          upperText="Descarga Ahora "
+          upperText="Descarga Ahora"
           lowerText=".apk"
           logo={Apk}
           className="flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800"
