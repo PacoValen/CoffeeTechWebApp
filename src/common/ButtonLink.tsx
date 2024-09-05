@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'; // Importa Link de react-router-dom
+
 export interface ButtonLinkProps {
   children?: React.ReactNode;
   to: string;                // Cambiado de href a to
@@ -7,17 +9,20 @@ export interface ButtonLinkProps {
   upperText?: string;
   lowerText?: string;
 }
+
 function ButtonLink({ to, children, className, target }: ButtonLinkProps) {
   return (
-    <a
-      href={to}
-      children={children}
+    <Link
+      to={to}                
       className={className}
       target={target}
-    ></a>
+    >
+      {children}            
+    </Link>
   );
 }
 
 export default ButtonLink;
+
 
 
