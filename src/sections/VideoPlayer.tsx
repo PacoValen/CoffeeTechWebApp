@@ -13,12 +13,12 @@ function VideoPlayer() {
             description="Revisa todas las funcionalidades que nuestra <br> aplicación tiene para la gestión de tus cultivos de café"
           />
           <div className="flex justify-center pt-8">
-            <ButtonLink
-              to="/documentation"
-              className="rounded-lg bg-customRed px-4 py-2 text-white"
-            >
-              Manual de usuario
-            </ButtonLink>
+          <ButtonLink
+            to="/documentation"     // Usa 'to' en lugar de 'href'
+            className="rounded-lg bg-customRed px-4 py-2 text-white"
+          >
+            Manual de usuario
+          </ButtonLink>
           </div>
         </div>
 
