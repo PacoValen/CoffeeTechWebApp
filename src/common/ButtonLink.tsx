@@ -1,16 +1,16 @@
 export interface ButtonLinkProps {
   children?: React.ReactNode;
-  href: string;
+  to: string;                // Cambiado de href a to
   className?: string;
   target?: string;
   logo?: string;
   upperText?: string;
   lowerText?: string;
 }
-function ButtonLink({ href, children, className, target }: ButtonLinkProps) {
+function ButtonLink({ to, children, className, target }: ButtonLinkProps) {
   return (
     <a
-      href={href}
+      href={to}
       children={children}
       className={className}
       target={target}
@@ -19,3 +19,5 @@ function ButtonLink({ href, children, className, target }: ButtonLinkProps) {
 }
 
 export default ButtonLink;
+
+
