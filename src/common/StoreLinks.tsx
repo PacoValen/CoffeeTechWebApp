@@ -15,7 +15,7 @@ function StoreLinks({ type }: StoreLinksProps) {
     return (
       <div className="mt-10 hidden justify-center space-x-2 sm:flex md:justify-normal">
         <StoreLink
-          href="#descargar"
+          href="/download"
           upperText="Descarga Ahora "
           lowerText=".apk"
           logo={Apk}

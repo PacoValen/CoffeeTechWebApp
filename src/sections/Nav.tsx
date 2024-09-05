@@ -16,16 +16,14 @@ function Nav() {
     <Disclosure as="nav" className="sticky top-0 z-50 bg-white shadow-md">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-4 pb-3 pt-3 sm:px-6 lg:px-8">
-            <div className="mr-4 flex h-16 items-center justify-between">
+          <div className="mx-auto max-w-7xl px-4 pb-2 pt-2 sm:px-6 lg:px-8">
+            <div className="mr-4 flex h-12 sm:h-16 items-center justify-between">
               <div className="flex items-center">
-                
-                  <img
-                    src={Logo}
-                    alt="logoCoffeeTech"
-                    className="h-20 w-auto"
-                  />
-                
+                <img
+                  src={Logo}
+                  alt="logoCoffeeTech"
+                  className="h-12 sm:h-20 w-auto"
+                />
               </div>
 
               {/* Menú de Links */}
@@ -44,7 +42,7 @@ function Nav() {
                 </Link>
                 <Link
                   to="/download"
-                  className="rounded-xl bg-gray-800 px-5 py-2 text-white hover:bg-gray-900 active:bg-gray-600"
+                  className="rounded-xl bg-gray-800 px-3 py-1.5 sm:px-5 sm:py-2 text-white hover:bg-gray-900 active:bg-gray-600"
                 >
                   Descargar CoffeeTech
                 </Link>
@@ -90,7 +88,7 @@ function Nav() {
               <DisclosureButton
                 as={Link}
                 to="/documentation"
-                className={textLinkClasses}
+                className="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900"
               >
                 Documentación
               </DisclosureButton>
@@ -110,3 +108,4 @@ function Nav() {
 }
 
 export default Nav;
+
