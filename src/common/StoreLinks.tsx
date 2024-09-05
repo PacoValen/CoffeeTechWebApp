@@ -1,6 +1,7 @@
 import Apk from "../assets/icons/apk.svg";
 import StoreLink from "../common/StoreLink";
 
+
 interface StoreLinksProps {
   type: BtnTypes;
 }
@@ -27,3 +28,5 @@ function StoreLinks({ type }: StoreLinksProps) {
 }
 
 export default StoreLinks;
+
+
