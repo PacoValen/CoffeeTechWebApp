@@ -1,3 +1,4 @@
+import Footer2 from '../common/Footer2';
 import Nav2 from '../common/Nav2';
 
 const Documentacion = () => {
@@ -29,6 +30,7 @@ const Documentacion = () => {
         </ul>
       </p>
     </div>
+    <Footer2 />
     </>
   );
 };

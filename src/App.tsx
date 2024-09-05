@@ -25,10 +25,8 @@ export default function App() {
             </>
           }
         />
-        <Route path="/download" element={<Download />} /> //con este codigo nos
-        redirigimos a la otra pagina
-        <Route path="/documentation" element={<Documentation />} /> //con este
-        codigo nos redirigimos a la otra pagina
+        <Route path="/download" element={<Download />} /> //con este codigo nos redirigimos a la otra pagina
+        <Route path="/documentation" element={<Documentation />} /> //con este codigo nos redirigimos a la otra pagina
       </Routes>
     </Router>
   );
