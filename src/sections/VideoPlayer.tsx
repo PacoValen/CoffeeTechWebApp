@@ -14,7 +14,7 @@ function VideoPlayer() {
           />
           <div className="flex justify-center pt-8">
           <ButtonLink
-            to="/documentation"     // Usa 'to' en lugar de 'href'
+            to="/documentation"     
             className="rounded-lg bg-customRed px-4 py-2 text-white"
           >
             Manual de usuario
