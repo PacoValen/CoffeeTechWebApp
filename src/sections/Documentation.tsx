@@ -13,6 +13,15 @@ const Documentacion = () => {
         <Autenticacion />
         <GettingStartedSection />
       </div>
+      <div className="flex justify-center pt-8">
+        <a
+          href="/manual.pdf"
+          download="Manual_de_usuario_Coffee_Tech.pdf"
+          className="bg-customRed px-6 py-3 text-white rounded-lg text-center text-sm md:text-base lg:text-lg font-semibold transition-transform duration-200 transform hover:scale-105"
+        >
+          Descargar Manual de usuario
+        </a>
+      </div>
       <Footer2 />
     </>
   );
