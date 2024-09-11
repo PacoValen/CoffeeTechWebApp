@@ -24,9 +24,9 @@ export const Section = ({ title, subsections }: SectionProps) => {
   };
 
   return (
-    <div className="mb-4 rounded-lg overflow-hidden shadow-md">
+    <div className="mb-4 rounded-lg overflow-hidden shadow-md w-full md:max-w-2xl lg:max-w-4xl mx-auto">
       <button
-        className="flex justify-between items-center w-full py-4 px-6 text-left focus:outline-none bg-[#7A939E] hover:bg-[#6A8290] transition-colors duration-200"
+        className="flex justify-between items-center w-full py-4 sm:py-6 px-4 sm:px-6 text-left focus:outline-none bg-[#7A939E] hover:bg-[#6A8290] transition-colors duration-200"
         onClick={toggleSection}
       >
         <span className="text-lg font-medium text-white">{title}</span>
@@ -37,7 +37,7 @@ export const Section = ({ title, subsections }: SectionProps) => {
           {subsections.map((subsection, index) => (
             <div key={index} className="border-t border-gray-200">
               <button
-                className="flex justify-between items-center w-full py-3 px-6 text-left focus:outline-none hover:bg-gray-50 transition-colors duration-200"
+                className="flex justify-between items-center w-full py-2 sm:py-3 px-4 sm:px-6 text-left focus:outline-none hover:bg-gray-50 transition-colors duration-200"
                 onClick={() => toggleSubsection(index)}
               >
                 <span className="text-md font-medium text-gray-700">{subsection.title}</span>
@@ -48,7 +48,7 @@ export const Section = ({ title, subsections }: SectionProps) => {
                 )}
               </button>
               {openSubsections.includes(index) && (
-                <div className="px-6 py-3 bg-gray-50">
+                <div className="px-4 sm:px-6 py-3 bg-gray-50">
                   <p className="text-gray-600">{subsection.content}</p>
                 </div>
               )}
