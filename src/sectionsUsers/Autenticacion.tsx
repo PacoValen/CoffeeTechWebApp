@@ -7,6 +7,11 @@ import Inicio from "../assets/Inicio.png";
 import Reestablecer1 from "../assets/Reestablecer1.png";
 import Reestablecer2 from "../assets/Reestablecer2.png";
 import Reestablecer3 from "../assets/Reestablecer3.png";
+import IrMenu from "../assets/irmenu.jpg";
+import Perfil from "../assets/perfil.jpg";
+import GuardarPerfil from "../assets/guardarPerfil.jpg";
+import Cerrar from "../assets/cerrar.jpg";
+
 
 const autenticacion = [
   {
@@ -196,6 +201,67 @@ const autenticacion = [
             src={Reestablecer3}
             alt="Pantalla de restablecimiento 3"
             className="w-full max-w-[100px] rounded-lg shadow-md -ml-4"
+          />
+        </div>
+      </div>
+    )
+  },
+  {
+    title: "Editar perfil",
+    content:(
+      <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
+        <div className="md:w-1/2 space-y-4">
+          <p className="text-base sm:text-lg text-gray-700">
+            1. Estando en la pantalla principal, nos dirigimos hasta el menú de hamburguesa 
+            ubicado en la parte superior izquierda.
+          </p>
+          <p className="text-base sm:text-lg text-gray-700">
+            2. Presionamos sobre la opción llamada <strong>“Perfil”.</strong>
+          </p>
+          <p className="text-base sm:text-lg text-gray-700">
+            3. Podemos editar el nombre o cambiar la contraseña. 
+            Después de hacer los cambios deseados guardamos los cambios seleccionando el botón 
+            <strong>“Guardar”.</strong>
+          </p>
+        </div>
+        <div className="md:w-1/3 flex flex-col items-center space-y-4">
+          <img
+            src={Perfil}
+            alt="Pantalla de restablecimiento 2"
+            className="w-full max-w-[100px] rounded-lg shadow-md ml-6"
+          />
+          <img
+            src={GuardarPerfil}
+            alt="Pantalla de restablecimiento 3"
+            className="w-full max-w-[100px] rounded-lg shadow-md ml-6"
+          />
+        </div>
+      </div>
+    )
+  },
+  {
+    title: "Cerrar sesión",
+    content: (
+      <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
+        <div className="md:w-1/2 space-y-4">
+          <p className="text-base sm:text-lg text-gray-700">
+            1. Estando en la pantalla principal, nos dirigimos hasta el menú de hamburguesa 
+            ubicado en la parte superior izquierda.
+          </p>
+          <p className="text-base sm:text-lg text-gray-700">
+            2. En la parte inferior del menú, seleccionamos el botón llamado <strong>“Cerrar sesión”.</strong>
+          </p>
+        </div>
+        <div className="md:w-1/3">
+          <img
+            src={IrMenu}
+            alt="Botón de descarga de Coffee Tech"
+            className="w-full max-w-[100px] rounded-lg shadow-md ml-6"
+          />
+          <img
+            src={Cerrar}
+            alt="Botón de descarga de Coffee Tech"
+            className="w-full max-w-[100px] rounded-lg shadow-md ml-6"
           />
         </div>
       </div>
