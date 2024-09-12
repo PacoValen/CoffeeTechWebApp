@@ -1,6 +1,6 @@
 import Nav2 from '../common/Nav2';
 import { Download as DownloadIcon } from 'lucide-react'; // Asegúrate de que 'lucide-react' esté instalado
-import Logo from '../assets/taza.png'; // Verifica que la ruta y el nombre del archivo sean correctos
+import Logo from '../assets/download.png'; // Verifica que la ruta y el nombre del archivo sean correctos
 import Footer2 from '../common/Footer2';
 
 const Download = () => {

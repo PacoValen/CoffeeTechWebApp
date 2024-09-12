@@ -11,7 +11,8 @@ import IrMenu from "../assets/irmenu.jpg";
 import Perfil from "../assets/perfil.jpg";
 import GuardarPerfil from "../assets/guardarPerfil.jpg";
 import Cerrar from "../assets/cerrar.jpg";
-
+import CambiarSeña from "../assets/cambiarSeña.jpg";
+import GuardarSeña from "../assets/guardarSeña.jpg";
 
 const autenticacion = [
   {
@@ -233,6 +234,40 @@ const autenticacion = [
           <img
             src={GuardarPerfil}
             alt="Pantalla de restablecimiento 3"
+            className="w-full max-w-[100px] rounded-lg shadow-md ml-6"
+          />
+        </div>
+      </div>
+    )
+  },
+  {
+    title: "Cambiar contraseña",
+    content: (
+      <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
+        <div className="md:w-1/2 space-y-4">
+          <p className="text-base sm:text-lg text-gray-700">
+            1. Estando en la pantalla principal, nos dirigimos hasta el menú de hamburguesa 
+            ubicado en la parte superior izquierda.
+          </p>
+          <p className="text-base sm:text-lg text-gray-700">
+            2. Presionamos sobre la opción  <strong>“Perfil”.</strong>
+          </p>
+          <p className="text-base sm:text-lg text-gray-700">
+            3. Seleccione la opción <strong>“Cambiar contraseña”.</strong>
+          </p>
+          <p className="text-base sm:text-lg text-gray-700">
+            4. Rellene los campos con la contraseña actual y la contraseña nueva. Seleccione el botón <strong>“Guardar”.</strong>
+          </p>
+        </div>
+        <div className="md:w-1/3">
+          <img
+            src={CambiarSeña}
+            alt="Botón de descarga de Coffee Tech"
+            className="w-full max-w-[100px] rounded-lg shadow-md ml-6"
+          />
+          <img
+            src={GuardarSeña}
+            alt="Botón de descarga de Coffee Tech"
             className="w-full max-w-[100px] rounded-lg shadow-md ml-6"
           />
         </div>
