@@ -1,12 +1,12 @@
 import { Section } from "./Section";
 import Descarga from "../assets/Descarga.jpg";
 import Desconocidas from "../assets/Desconocidas.png";
-import Registrarse1 from "../assets/Registrarse1.png";
+import Registrarse1 from "../assets/Registrarse1.jpg";
 import Token from "../assets/Token.png";
-import Inicio from "../assets/Inicio.png";
-import Reestablecer1 from "../assets/Reestablecer1.png";
+import Inicio from "../assets/Inicio.jpg";
+import Reestablecer1 from "../assets/Reestablecer1.jpg";
 import Reestablecer2 from "../assets/Reestablecer2.png";
-import Reestablecer3 from "../assets/Reestablecer3.png";
+import Reestablecer3 from "../assets/Reestablecer3.jpg";
 import IrMenu from "../assets/irmenu.jpg";
 import Perfil from "../assets/perfil.jpg";
 import GuardarPerfil from "../assets/guardarPerfil.jpg";
@@ -259,7 +259,7 @@ const autenticacion = [
             4. Rellene los campos con la contraseña actual y la contraseña nueva. Seleccione el botón <strong>“Guardar”.</strong>
           </p>
         </div>
-        <div className="md:w-1/3">
+        <div className="md:w-1/3 flex flex-col items-center space-y-4">
           <img
             src={CambiarSeña}
             alt="Botón de descarga de Coffee Tech"
@@ -287,7 +287,7 @@ const autenticacion = [
             2. En la parte inferior del menú, seleccionamos el botón llamado <strong>“Cerrar sesión”.</strong>
           </p>
         </div>
-        <div className="md:w-1/3">
+        <div className="md:w-1/3 flex flex-col items-center space-y-4">
           <img
             src={IrMenu}
             alt="Botón de descarga de Coffee Tech"
