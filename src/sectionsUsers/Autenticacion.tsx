@@ -16,17 +16,17 @@ import GuardarSeña from "../assets/guardarSeña.jpg";
 
 const autenticacion = [
   {
-    title: " Descarga del APK",
+    title: " Descarga de la APP",
     content: (
       <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
         <div className="md:w-1/2 space-y-4">
           <p className="text-base sm:text-lg text-gray-700">
-            1. Estando en la pantalla de descarga, haga clic en el botón 
-            <strong> "Descargar Coffee Tech" </strong> para comenzar la descarga del archivo APK.
+            1. Estando en la pantalla de descarga, haga clic en el botón
+            <strong> "Descargar APK" </strong> para comenzar la descarga del archivo.
           </p>
           <p className="text-base sm:text-lg text-gray-700">
-            2. Una vez descargado, localice el archivo APK en su dispositivo 
-            (generalmente se ubica en la carpeta "Descargas").
+            2. Una vez Una vez que la descarga haya finalizado, 
+            busque la app en su dispositivo. Generalmente, el archivo se encuentra en la carpeta "Descargas".
           </p>
         </div>
         <div className="md:w-1/3">
@@ -49,12 +49,12 @@ const autenticacion = [
             <strong> Configuración </strong> <strong> Seguridad</strong> en su dispositivo Android.
           </p>
           <p className="text-base sm:text-lg text-gray-700">
-            2. Active la opción de "Fuentes desconocidas" 
-            para permitir la instalación de aplicaciones externas a Google Play. 
+            2. Active la opción <strong>Permitir aplicaciones de fuentes desconocidas </strong> 
+            para permitir la instalación de apps que no provienen de Google Play. 
           </p>
           <p className="text-base sm:text-lg text-gray-700">
-            3. En ocasiones al abrir el archivo APK aparece un recuadro directamente en su pantalla 
-            para decidir si otorgar o no permisos a las aplicaciones externas a Google Play. 
+            3. A veces, al abrir la app, aparecerá un cuadro en su pantalla pidiendo
+             confirmar si desea permitir la instalación de aplicaciones que no son de Google Play.
           </p>
         </div>
         <div className="md:w-1/3">
@@ -68,15 +68,13 @@ const autenticacion = [
     )
   },
   {
-    title: "Instalación del APK",
+    title: "Instalación de la APP",
     content: (
       <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
         <div className="md:w-1/2 space-y-4">
           <p className="text-base sm:text-lg text-gray-700">
-            1. Abra el archivo APK previamente descargado.
-          </p>
-          <p className="text-base sm:text-lg text-gray-700">
-            2. Siga las instrucciones en pantalla para completar la instalación.
+            1. Se debe abrir la aplicación previamente descargada
+             y seguir las instrucciones que aparecerán en pantalla para completar la instalación.
           </p>
         </div>
       </div>
@@ -88,8 +86,8 @@ const autenticacion = [
       <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
         <div className="md:w-1/2 space-y-4">
           <p className="text-base sm:text-lg text-gray-700">
-            1. Mientras ejecuta la aplicación, se le pedirá confirmar los permisos que requiere la aplicación.
-             Revise y otorgue los permisos necesarios para un uso optimo.
+            1. Al ejecutar la aplicación, se solicitará la confirmación de los permisos necesarios.
+            Es importante revisar y otorgar estos permisos para garantizar un uso óptimo.
           </p>
         </div>
       </div>
@@ -101,13 +99,13 @@ const autenticacion = [
       <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
         <div className="md:w-1/2 space-y-4">
           <p className="text-base sm:text-lg text-gray-700">
-            1. Abra la aplicación y seleccione la opción <strong>"Registrarse"</strong>
-             que aparece en la parte inferior de la pantalla.
+            1. Abra la aplicación y seleccione la opción <strong>"¿No tienes cuenta? Registrarse"</strong>
+            que aparece en la parte inferior de la pantalla. 
           </p>
           <p className="text-base sm:text-lg text-gray-700">
-            2. Ingrese su nombre completo, correo electrónico válido, y contraseña, 
-            teniendo en cuenta que la contraseña debe cumplir con los requisitos mínimos de seguridad 
-            (mínimo 8 caracteres con al menos una mayúscula, un número y un carácter especial).
+            2. Se debe ingresar el nombre completo, un correo electrónico válido y una contraseña 
+            que cumpla con los requisitos mínimos de seguridad: 
+            al menos 8 caracteres, incluyendo una mayúscula, un número y un carácter especial.
           </p>
           <p className="text-base sm:text-lg text-gray-700">
             3. Confirme su contraseña en el campo correspondiente.
@@ -116,8 +114,9 @@ const autenticacion = [
             4. Presione el botón <strong>"Registrarse".</strong>
           </p>
           <p className="text-base sm:text-lg text-gray-700">
-            5. Recibirá a su correo un mensaje de autenticación, el cual llevará un código 
-            (token) que deberá pegar en el campo requerido; siga las instrucciones para activar su cuenta.
+            5. Se recibirá un mensaje de autenticación en el correo electrónico proporcionado, 
+            el cual incluirá un código (token). Este código debe ingresarse en el campo correspondiente,
+             y seguir las instrucciones para activar la cuenta.
           </p>
         </div>
         <div className="md:w-1/3 space-y-6 md:mr-6">
@@ -152,8 +151,8 @@ const autenticacion = [
             2. Introduzca su correo electrónico y contraseña.
           </p>
           <p className="text-base sm:text-lg text-gray-700">
-            3. Presione el botón <strong>"Iniciar sesión".</strong>
-             Si las credenciales son correctas, será redirigido a la página principal de la aplicación.
+            3. Presione el botón <strong>"Iniciar sesión".</strong> 
+            Si las credenciales son correctas, será redirigido a la página principal de la aplicación.
           </p>
         </div>
         <div className="md:w-1/3">
@@ -172,19 +171,19 @@ const autenticacion = [
       <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
         <div className="md:w-1/2 space-y-4">
           <p className="text-base sm:text-lg text-gray-700">
-            1. Desde la pantalla de inicio de sesión, seleccione "¿Olvidaste tu contraseña?".
+            1. Desde la pantalla de inicio de sesión, seleccione <strong>"Olvide la contraseña".</strong>
           </p>
           <p className="text-base sm:text-lg text-gray-700">
             2. Ingrese su correo electrónico registrado y presione <strong>"Enviar correo".</strong>
           </p>
           <p className="text-base sm:text-lg text-gray-700">
-            3. Recibirá un correo con un token el cual debe pegar en el recuadro “token” 
-            para verificar y luego dar clic al botón “confirmar Token. 
-            Abra el correo y siga las instrucciones.
+            3. Se recibirá un correo electrónico con un código (token).
+             Este código debe ingresarse en el campo "Código" para verificar la cuenta 
+             y luego se debe hacer clic en el botón <strong>"Confirmar código".</strong> 
           </p>
           <p className="text-base sm:text-lg text-gray-700">
-            4. Ingrese una nueva contraseña, confírmela y guarde los cambios 
-            seleccionando el botón <strong>“Restablecer”.</strong>
+            4. Se debe ingresar una nueva contraseña, confirmarla y guardar los cambios
+             haciendo clic en el botón  <strong>“Restablecer”.</strong>
           </p>
         </div>
         <div className="md:w-1/3 flex flex-col items-center space-y-4">
@@ -213,15 +212,14 @@ const autenticacion = [
       <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
         <div className="md:w-1/2 space-y-4">
           <p className="text-base sm:text-lg text-gray-700">
-            1. Estando en la pantalla principal, nos dirigimos hasta el menú de hamburguesa 
-            ubicado en la parte superior izquierda.
+            1. Desde la pantalla principal, diríjase hasta el menú de hamburguesa ubicado en la parte superior izquierda.
           </p>
           <p className="text-base sm:text-lg text-gray-700">
             2. Presionamos sobre la opción llamada <strong>“Perfil”.</strong>
           </p>
           <p className="text-base sm:text-lg text-gray-700">
-            3. Podemos editar el nombre o cambiar la contraseña. 
-            Después de hacer los cambios deseados guardamos los cambios seleccionando el botón 
+            3. Se puede editar el nombre o cambiar la contraseña. 
+            Una vez realizados los cambios, se deben guardar haciendo clic en el botón  
             <strong>“Guardar”.</strong>
           </p>
         </div>
@@ -246,8 +244,7 @@ const autenticacion = [
       <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
         <div className="md:w-1/2 space-y-4">
           <p className="text-base sm:text-lg text-gray-700">
-            1. Estando en la pantalla principal, nos dirigimos hasta el menú de hamburguesa 
-            ubicado en la parte superior izquierda.
+            1. Desde la pantalla principal, diríjase hasta el menú de hamburguesa ubicado en la parte superior izquierda.
           </p>
           <p className="text-base sm:text-lg text-gray-700">
             2. Presionamos sobre la opción  <strong>“Perfil”.</strong>
@@ -256,7 +253,8 @@ const autenticacion = [
             3. Seleccione la opción <strong>“Cambiar contraseña”.</strong>
           </p>
           <p className="text-base sm:text-lg text-gray-700">
-            4. Rellene los campos con la contraseña actual y la contraseña nueva. Seleccione el botón <strong>“Guardar”.</strong>
+            4. Se deben completar los campos con la contraseña actual y la nueva contraseña.
+            Luego, se debe hacer clic en el botón  <strong>“Guardar”.</strong>
           </p>
         </div>
         <div className="md:w-1/3 flex flex-col items-center space-y-4">
@@ -280,8 +278,7 @@ const autenticacion = [
       <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
         <div className="md:w-1/2 space-y-4">
           <p className="text-base sm:text-lg text-gray-700">
-            1. Estando en la pantalla principal, nos dirigimos hasta el menú de hamburguesa 
-            ubicado en la parte superior izquierda.
+            1. Desde la pantalla principal, diríjase hasta el menú de hamburguesa ubicado en la parte superior izquierda.
           </p>
           <p className="text-base sm:text-lg text-gray-700">
             2. En la parte inferior del menú, seleccionamos el botón llamado <strong>“Cerrar sesión”.</strong>
