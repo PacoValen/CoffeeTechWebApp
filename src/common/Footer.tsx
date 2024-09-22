@@ -33,6 +33,11 @@ function Footer() {
               </a>
             </li>
             <li>
+            <a href="/termsandconditions" target="_blank" rel="noopener noreferrer" className="text-customRed hover:underline">
+              Términos y Condiciones
+            </a>
+            </li>
+            <li>
               <Link to="/documentation" className="hover:underline">
                 Documentación
               </Link>
