@@ -1,0 +1,2 @@
+[build]
+command = "npm install --omit=optional && npm run build"
