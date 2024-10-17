@@ -1,7 +1,11 @@
 import Footer2 from "../common/Footer2";
 import Nav2 from "../common/Nav2";
+
+import { Finca } from "../sectionsUsers/Finca";
+import { Lotes } from "../sectionsUsers/Lotes";
 import { Autenticacion } from "../sectionsUsers/Autenticacion";
 import { GettingStartedSection } from "../sectionsUsers/GettingStartedSection";
+import { Colaboradores } from "../sectionsUsers/Colaboradores";
 
 
 const Documentacion = () => {
@@ -12,6 +16,9 @@ const Documentacion = () => {
         <h1 className="text-3xl font-bold mb-4">Manual de Usuario</h1>
         <Autenticacion />
         <GettingStartedSection />
+        <Finca />
+        <Lotes />
+        <Colaboradores />
       </div>
       <div className="flex justify-center pt-8">
         <a
