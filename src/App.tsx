@@ -7,6 +7,8 @@ import Download from "./sections/Download";
 import Documentation from "./sections/Documentation";
 import VideoPlayer from "./sections/VideoPlayer";
 import Footer from "./common/Footer";
+import TermsAndConditions from './sections/TermsAndConditions';
+
 
 export default function App() {
   return (
@@ -27,6 +29,7 @@ export default function App() {
         />
         <Route path="/download" element={<Download />} /> //con este codigo nos redirigimos a la otra pagina
         <Route path="/documentation" element={<Documentation />} /> //con este codigo nos redirigimos a la otra pagina
+        <Route path="/termsandconditions" element={<TermsAndConditions />} />
       </Routes>
     </Router>
   );

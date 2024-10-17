@@ -6,6 +6,7 @@ export default {
       colors: {
         customRed: "#B31D34", // Puedes darle un nombre como 'customRed'
         customSoftRed: "#E8A3AB",
+        customGreen: "#006400",
       },
     },
   },

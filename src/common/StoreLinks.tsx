@@ -1,6 +1,7 @@
 import Apk from "../assets/icons/apk.svg";
 import StoreLink from "../common/StoreLink";
 
+
 interface StoreLinksProps {
   type: BtnTypes;
 }
@@ -15,7 +16,7 @@ function StoreLinks({ type }: StoreLinksProps) {
     return (
       <div className="mt-10 flex justify-center space-x-2 sm:flex md:justify-normal">
         <StoreLink
-          href="/download"
+          to="/download"
           upperText="Descarga Ahora"
           lowerText=".apk"
           logo={Apk}
@@ -27,3 +28,5 @@ function StoreLinks({ type }: StoreLinksProps) {
 }
 
 export default StoreLinks;
+
+
