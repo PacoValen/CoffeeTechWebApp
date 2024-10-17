@@ -1,2 +1,2 @@
 [build]
-command = "npm install --omit=optional && npm run build"
+command = "npm ci --omit=optional && npm run build"
