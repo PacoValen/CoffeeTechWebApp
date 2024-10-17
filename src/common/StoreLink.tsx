@@ -1,7 +1,8 @@
-import { ButtonLinkProps } from "./ButtonLink";
+import { Link } from 'react-router-dom';
+import { ButtonLinkProps } from './ButtonLink';
 
 function StoreLink({
-  href,
+  to,
   className,
   target,
   logo,
@@ -9,14 +10,17 @@ function StoreLink({
   lowerText,
 }: ButtonLinkProps) {
   return (
-    <a href={href} className={className} target={target}>
+    <Link to={to} className={className} target={target}>
       <img src={logo} alt={`${lowerText} logo`} className="w-5" />
       <div>
         <p className="text-xs">{upperText}</p>
         <p>{lowerText}</p>
       </div>
-    </a>
+    </Link>
   );
 }
 
 export default StoreLink;
+
+
+
