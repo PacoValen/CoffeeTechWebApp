@@ -4,7 +4,6 @@ import Nav2 from "../common/Nav2";
 import { Finca } from "../sectionsUsers/Finca";
 import { Lotes } from "../sectionsUsers/Lotes";
 import { Autenticacion } from "../sectionsUsers/Autenticacion";
-import { GettingStartedSection } from "../sectionsUsers/GettingStartedSection";
 import { Colaboradores } from "../sectionsUsers/Colaboradores";
 
 
@@ -15,7 +14,6 @@ const Documentacion = () => {
       <div className="p-8">
         <h1 className="text-3xl font-bold mb-4">Manual de Usuario</h1>
         <Autenticacion />
-        <GettingStartedSection />
         <Finca />
         <Lotes />
         <Colaboradores />
