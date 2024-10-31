@@ -170,6 +170,30 @@ const laboresCulturales = [
         )
     },
     {
+        title: "Sección de “Añadir labores”",
+        content: (
+            <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
+                <div className="md:w-1/2 space-y-4">
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>- Imagen 1: Selección de colaborador para la labor:</strong><br />
+                        En esta pantalla, el usuario debe elegir un colaborador disponible para asignarle la labor "Chequeo de Salud" en el lote 1. Al pulsar en el campo de selección, se despliega una lista con los colaboradores disponibles.<br />
+                        <strong>- Imagen 2: Confirmación de colaborador seleccionado:</strong><br />
+                        El usuario ha seleccionado "Brayan Trujillo" como colaborador para la labor. Esta selección se confirma y permite al usuario avanzar en el proceso de asignación al pulsar "Siguiente".<br />
+                        <strong>- Imagen 3: Configuración de recordatorios para la labor:</strong><br />
+                        En esta pantalla, el usuario puede configurar recordatorios para la labor asignada. Tiene la opción de recibir un recordatorio personal y/o enviar uno al colaborador asignado.
+                    </p>
+                </div>
+                <div className="md:w-1/3">
+                    <img
+                        src={LaborCultural7}
+                        alt="Sección de Añadir labores"
+                        className="w-full rounded-lg shadow-md"
+                    />
+                </div>
+            </div>
+        )
+    },
+    {
         title: "Visualización de tareas en lote",
         content: (
             <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
