@@ -28,7 +28,7 @@ const Download = () => {
             download="coffee-Tech.apk"
           >
             <DownloadIcon className="w-5 h-5 mr-2" />
-            Descargar APK
+            Descargar Aplicación
           </a>
 
           {/* Mensaje visible solo en pantallas grandes */}
@@ -37,7 +37,7 @@ const Download = () => {
           </p>
 
           <p className="mt-6 text-xs sm:text-sm text-gray-500">
-            Versión 1.0.0 - Última actualización: Septiembre 2024
+            Versión 3.2.2 - Última actualización: Noviembre 2024
           </p>
         </div>
       </section>

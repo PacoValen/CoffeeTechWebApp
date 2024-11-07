@@ -302,5 +302,5 @@ const autenticacion = [
 ];
 
 export const Autenticacion = () => (
-  <Section title=" Módulo de Descargar APK y Autenticación" subsections={autenticacion} />
+  <Section title=" Módulo para Descargar aplicación y Autenticación" subsections={autenticacion} />
 );
