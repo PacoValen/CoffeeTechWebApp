@@ -8,6 +8,7 @@ import { Colaboradores } from "../sectionsUsers/Colaboradores";
 import { Floraciones } from "../sectionsUsers/Floraciones";
 import { LaboresCulturales } from "../sectionsUsers/LaboresCulturales";
 import { Costos } from "../sectionsUsers/Costos";
+import { Reportes } from "../sectionsUsers/Reportes";
 
 const Documentacion = () => {
   return (
@@ -22,6 +23,7 @@ const Documentacion = () => {
         <Floraciones />
         <LaboresCulturales />
         <Costos />
+        <Reportes />
       </div>
       <div className="flex justify-center pt-8">
         <a
