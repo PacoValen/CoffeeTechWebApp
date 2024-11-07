@@ -7,6 +7,7 @@ import { Autenticacion } from "../sectionsUsers/Autenticacion";
 import { Colaboradores } from "../sectionsUsers/Colaboradores";
 import { Floraciones } from "../sectionsUsers/Floraciones";
 import { LaboresCulturales } from "../sectionsUsers/LaboresCulturales";
+import { Costos } from "../sectionsUsers/Costos";
 
 const Documentacion = () => {
   return (
@@ -20,6 +21,7 @@ const Documentacion = () => {
         <Colaboradores />
         <Floraciones />
         <LaboresCulturales />
+        <Costos />
       </div>
       <div className="flex justify-center pt-8">
         <a
