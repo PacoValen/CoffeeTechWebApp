@@ -39,7 +39,7 @@ function Footer() {
             </li>
             <li>
               <Link to="/documentation" className="hover:underline">
-                Documentación
+                Manual de usuario
               </Link>
             </li>
             <li>

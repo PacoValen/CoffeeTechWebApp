@@ -38,7 +38,7 @@ function Nav() {
                   Soluciones
                 </a>
                 <Link to="/documentation" className={textLinkClasses}>
-                  Documentación
+                  Manual de usuario
                 </Link>
                 <Link
                   to="/download"

@@ -1,4 +1,4 @@
-import MockupFincas from "../assets/mockups/mockup-fincas.png";
+import MockupFincas from "../assets/mockups/mockup-fincas.svg";
 import Plus from "../assets/icons/plus.png";
 import DolarSign from "../assets/icons/dollar.png";
 import PhotoFrames from "../assets/photosFrame.png";
@@ -29,7 +29,7 @@ function FreeTier() {
             </p>
           </div>
 
-          <div className="m-auto mt-10 max-w-72 md:mx-10 md:w-1/2 lg:mx-0">
+          <div className="m-auto mt-10 max-w-[40rem] md:mx-10 md:w-3/4 lg:mx-0 lg:w-full">
             <img src={MockupFincas} alt="Mockup Finca" />
           </div>
         </div>
@@ -50,7 +50,7 @@ function FreeTier() {
       </article>
 
       <article className="flex w-full flex-col gap-8 xl:h-96 xl:flex-row">
-        <div className="flex flex-col justify-center gap-4 rounded-2xl bg-red-100 p-10 xl:w-1/3">
+        <div className="flex flex-col justify-center gap-4 rounded-2xl bg-red-100 p-10 xl:w-1/2">
           <div className="w-fit rounded-full bg-red-200 p-4">
             <img src={DolarSign} alt="" className="max-h-12 max-w-12" />
           </div>
@@ -58,10 +58,7 @@ function FreeTier() {
             Genera reportes de costos y rendimiento
           </h2>
           <p className="text-gray-500">
-            Visualiza y descarga reportes de la utilidad neta en tus fincas y
-            lotes por rango de tiempo. Además genera un reporte del rendimiento
-            del café en base al peso del café en pergamino, pasilla y excelso al
-            final de la cadena de producción.
+          El módulo de reportes brinda un control completo y organizado de tus operaciones, permitiéndote descargar información clave en formatos PDF o CSV. Obtén un reporte general de salud para ver el historial de detecciones en un rango de fechas, reportando todas las inspecciones realizadas en cada lote, y un reporte financiero detallando ingresos y costos.
           </p>
         </div>
 

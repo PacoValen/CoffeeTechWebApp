@@ -24,7 +24,7 @@ function Hero() {
 
       <div className="md:w-3/6 xl:mb-12 xl:overflow-hidden">
         <img
-          className="right-0 m-auto w-60 sm:w-72 xl:absolute xl:left-6 xl:right-0 xl:mt-32 xl:w-80"
+          className="right-0 m-auto w-[55rem] xl:absolute xl:left-6 xl:right-0 xl:mt-32"
           src={Phone}
           alt="Kobodrop app frame"
         />

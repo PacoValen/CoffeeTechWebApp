@@ -26,7 +26,7 @@ function Footer2() {
         <ul className="mt-3 flex flex-wrap items-center justify-center md:justify-start text-sm font-medium text-gray-500 sm:mt-0 dark:text-gray-400 gap-4 md:gap-6">
           <li>
             <Link to="/documentation" className="hover:underline">
-              Documentación
+              Manual de usuario
             </Link>
           </li>
           <li>
