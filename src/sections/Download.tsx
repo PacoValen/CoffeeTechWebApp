@@ -37,7 +37,7 @@ const Download = () => {
           </p>
 
           <p className="mt-6 text-xs sm:text-sm text-gray-500">
-            Versión 3.2.2 - Última actualización: Noviembre 2024
+            Versión 4.1.3 - Última actualización: Noviembre 2024
           </p>
         </div>
       </section>
