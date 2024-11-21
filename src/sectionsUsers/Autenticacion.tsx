@@ -1,7 +1,7 @@
 import { Section } from "./Section";
 import Descarga from "../assets/Descarga.jpg";
 import Desconocidas from "../assets/Desconocidas.png";
-import Registrarse1 from "../assets/registrarse1.jpg";
+import Registrarse1 from "../assets/registrarse.jpg";
 import Registrarse2 from "../assets/registrarse2.jpeg";
 import Registrarse3 from "../assets/registrarse3.jpeg";
 // import Registrarse4 from "../assets/registrarse4.jpeg";
