@@ -2,24 +2,48 @@ import { Section } from "./Section";
 import Costos1 from "../assets/costos1.png";
 import Costos2 from "../assets/costos2.png";
 import Costos3 from "../assets/costos3.png";
-import Costos4 from "../assets/costos4.png";
 
 const costos = [
     {
-        title: "Vista Inicial",
+        title: "Acceso a Costos",
         content: (
             <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
                 <div className="md:w-1/2 space-y-4">
-                    <p className="text-base sm:text-lg text-gray-700">
-                    Esta pantalla muestra la información detallada de un lote específico en la finca "Villa Claudia". A continuación, se describen sus secciones y funcionalidades principales: <br />
-                        <strong>- Encabezado (Información de Lote)</strong><br/>Indica que se está visualizando la información del lote dentro de la finca especificada.<br />
-                        <strong>- Información General</strong><br/>Muestra el nombre del lote (en este caso, "DesSur") y la ubicación general (Colombia).<br/>
-                        Hay un icono de lápiz en un círculo rojo, que permite editar la información general del lote.<br/>
-                        <strong>- Ubicación</strong><br/>Proporciona las coordenadas de ubicación específicas del lote:<br/>Latitud y Longitud: Coordenadas geográficas precisas.<br/>Altitud: Altitud sobre el nivel del mar.
+                <p className="text-base sm:text-lg text-gray-700">
+                        Para acceder a la información de costos, sigue estos pasos:
                     </p>
-
                     <p className="text-base sm:text-lg text-gray-700">
-                        <strong>Primer paso: </strong>Seleccionamos botón rojo de “Costos” donde automáticamente nos direccionará a la vista que estará reflejada en la parte de abajo.
+                        <strong>1. Seleccionar Finca</strong><br />
+                        Desde el menú de navegación ubicado en la parte inferior de la pantalla, selecciona la opción <strong>Fincas</strong>. Aparecerá un listado con todas las fincas registradas. Selecciona la finca de la cual deseas consultar los costos.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>2. Seleccionar Lote</strong><br />
+                        Una vez seleccionada la finca, se mostrará un listado de lotes. Escoge el lote del cual necesitas la información de costos.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>3. Pantalla de Información del Lote</strong><br />
+                        Al seleccionar el lote, accederás a la pantalla con la siguiente información:
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>a. Encabezado del Lote</strong><br />
+                        - Nombre del lote (por ejemplo: "DesSur").<br />
+                        - Ubicación general (por ejemplo: Colombia).<br />
+                        - Un ícono de lápiz en un círculo rojo para editar la información del lote.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>b. Ubicación Geográfica</strong><br />
+                        - Latitud y Longitud: Coordenadas exactas del lote.<br />
+                        - Altitud: Altura sobre el nivel del mar.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>c. Menú de Acciones</strong><br />
+                        - Floraciones: Accede a información relacionada con las floraciones del lote.<br />
+                        - Labores culturales: Consulta tareas asignadas o completadas, como chequeos de salud o actividades de mantenimiento.<br />
+                        - Costos: Ingresa a la información de costos del lote.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>4. Acceso a Costos</strong><br />
+                        Presiona el botón <strong>Costos</strong> en el menú de acciones. Esto te redireccionará a la <strong>vista de transacciones</strong>, donde podrás consultar toda la información relacionada con los costos del lote.
                     </p>
                 </div>
                 <div className="md:w-1/3">
@@ -38,11 +62,16 @@ const costos = [
             <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
                 <div className="md:w-1/2 space-y-4">
                     <p className="text-base sm:text-lg text-gray-700">
-                    <strong>- Saldo Total</strong><br />Muestra el saldo actual para el lote, en este caso, <strong>$400,000.00</strong>, que es el resultado de ingresos menos gastos.<br/><br/>
-                    <strong>- Filtros</strong><br /><strong>Todos:</strong> Permite ver tanto ingresos como gastos.<br /><strong>Más reciente:</strong> Ordena las transacciones de la más reciente a la más antigua.<br /><br />
-                    <strong>- Lista de Transacciones</strong><br/><strong>Gasto:</strong> Aparece en rojo y se detalla como:<br /><strong>Categoría:</strong> Fertilizantes.<br /><strong>Descripción:</strong> Abono F70.<br /><strong>Monto:</strong> $3,800,000, registrado el 5 de noviembre de 2024.<br /><strong>Icono de Lápiz:</strong> Permite editar esta transacción.<br /><br /><strong>Ingreso:</strong> Aparece en verde y se detalla como:<br /><strong>Categoría:</strong> Venta de café.<br /><strong>Descripción:</strong> Venta de 3 cargas.<br /><strong>Monto:</strong> $4,200,000, registrado el 1 de noviembre de 2024.<br /><strong>Icono de Lápiz:</strong> Permite editar esta transacción.<br /><br />
-                    <strong>- Botón de Añadir Nueva Transacción</strong><br />En la esquina inferior derecha, el botón rojo con el signo "+" permite agregar una nueva transacción al lote.<br /><br />
-                    <strong>- Menú de Navegación Inferior</strong><br />- Ofrece acceso rápido a las diferentes secciones de la aplicación:<br /><strong>- Inicio:</strong> Pantalla principal de la aplicación.<br /><strong>- Fincas:</strong> Vista de fincas y lotes.<br /><strong>- Labores:</strong> Acceso a tareas y labores culturales.<br /><strong>- Reportes:</strong> Visualización de reportes financieros y de actividades.
+                        La sección de transacciones permite visualizar, filtrar y gestionar los movimientos financieros del lote.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>1. Consultar y Filtrar Transacciones</strong><br />
+                        Usa los filtros para clasificar las transacciones en "Ingresos" o "Gastos". También puedes ordenar por fechas recientes.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>2. Editar o Agregar Transacciones</strong><br />
+                        Para editar, toca el ícono de lápiz junto a la transacción correspondiente.<br />
+                        Para agregar, pulsa el botón "+" en la parte inferior derecha de la pantalla, completa los campos requeridos y guarda la transacción.
                     </p>
                 </div>
                 <div className="md:w-1/3">
@@ -56,50 +85,30 @@ const costos = [
         )
     },
     {
-        title: "Vista de agregar transacción 1",
+        title: "Vista de Agregar Transacción",
         content: (
             <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
                 <div className="md:w-1/2 space-y-4">
                     <p className="text-base sm:text-lg text-gray-700">
-                        <strong>- Tipo de Transacción:</strong> Permite seleccionar entre "Ingreso" o "Gasto". Al pulsar en el campo se despliega un menú con estas opciones. Esta selección determina el tipo de transacción que se registrará.<br /><br />
-                        <strong>- Categoría:</strong> Este campo despliega un menú de categorías relacionadas con el tipo de transacción seleccionado. Por ejemplo, para un ingreso, puede haber categorías como "Venta de café". Esto ayuda a clasificar cada transacción según su naturaleza.<br /><br />
-                        <strong>- Valor:</strong> En este campo, el usuario ingresa el monto de la transacción. Debe ser un valor numérico que representa la cantidad de dinero involucrada en la transacción.<br /><br />
-                        <strong>- Descripción:</strong> Campo para añadir una breve nota o descripción sobre la transacción, como "venta 1 carga café". Esto facilita la identificación de cada transacción en los registros.<br /><br />
-                        <strong>- Fecha:</strong> Aquí se debe seleccionar la fecha en la que se realizó la transacción. El campo aparece inicialmente vacío y permite seleccionar la fecha mediante un calendario emergente.
+                        Esta vista permite registrar nuevos movimientos financieros.
                     </p>
-
                     <p className="text-base sm:text-lg text-gray-700">
-                        <strong>Ejemplo de flujo de trabajo:</strong><br /><strong>Seleccionar el tipo de transacción:</strong> Tocar el campo "Tipo" y elegir entre "Ingreso" o "Gasto".<br /><strong>Seleccionar la categoría:</strong> Tocar el campo "Categoría" y elegir la opción que mejor describa la transacción.<br /><strong>Ingresar el valor:</strong> Escribir el monto correspondiente en el campo "Valor".<br /><strong>Añadir descripción:</strong> Ingresar una breve descripción para identificar mejor la transacción.<br /><strong>Elegir fecha:</strong> Tocar en el campo "Fecha" y seleccionar la fecha deseada en el calendario emergente.
+                        <strong>1. Campos del Formulario</strong><br />
+                        - <strong>Tipo de Transacción:</strong> Selecciona entre "Ingreso" o "Gasto".<br />
+                        - <strong>Categoría:</strong> Clasifica la transacción según su naturaleza, como "Venta de café".<br />
+                        - <strong>Valor:</strong> Introduce el monto de la transacción.<br />
+                        - <strong>Descripción:</strong> Agrega notas breves para identificar mejor la transacción.<br />
+                        - <strong>Fecha:</strong> Selecciona el día exacto usando un calendario emergente.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>2. Pasos para Registrar una Transacción</strong><br />
+                        - Pulsa el botón "+", completa todos los campos y selecciona "Crear".<br />
+                        - Verifica que la nueva transacción aparezca en la lista.
                     </p>
                 </div>
                 <div className="md:w-1/3">
                     <img
                         src={Costos3}
-                        alt="Sección de Fincas"
-                        className="w-full rounded-lg shadow-md"
-                    />
-                </div>
-            </div>
-        )
-    },
-    {
-        title: "Vista de agregar transacción 2",
-        content: (
-            <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
-                <div className="md:w-1/2 space-y-4">
-                    <p className="text-base sm:text-lg text-gray-700">
-                    <strong>Vista de agregar transacción:</strong><br /><br />
-                    <strong>Agregar Transacción:</strong><br/>- Toca el botón "+" en la vista principal para abrir el formulario.<br />
-                    - Completa los campos: <strong>Tipo, Categoría, Valor, Descripción y Fecha.</strong><br />
-                    - Presiona <strong>Crear</strong> para guardar la transacción.<br/><br/>
-                    <strong>- Verificar Transacción:</strong> Revisa la lista para confirmar que la nueva transacción esté registrada con los datos correctos.<br/><br/>
-                    <strong>- Filtrar y Ordenar Transacciones:</strong> Usa los filtros de Tipo (Ingreso/Gasto) y Fecha (Más reciente) para ver transacciones específicas.<br/><br/>
-                    <strong>- Editar Transacción (Opcional):</strong> Pulsa el icono de lápiz en la transacción que deseas modificar, haz los cambios y guarda.<br />
-                    </p>
-                </div>
-                <div className="md:w-1/3">
-                    <img
-                        src={Costos4}
                         alt="Sección de Fincas"
                         className="w-full rounded-lg shadow-md"
                     />

@@ -12,16 +12,15 @@ const reportes = [
             <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
                 <div className="md:w-1/2 space-y-4">
                     <p className="text-base sm:text-lg text-gray-700">
-                        <strong>Vista de Reportes:</strong><br/><br/>
-                        <strong>- Reporte financiero:</strong><br/>Toca este botón para ver la información financiera de la finca. Esto te mostrará detalles sobre ingresos y
-                        gastos.<br/><br/>
-                        <strong>- Reporte general de salud:</strong><br/>Toca este botón para ver el estado de salud de la finca. Aquí encontrarás datos sobre la salud de las plantas y
-                        del suelo.<br/><br/>
-                        
-                        Barra de Navegación (abajo de la pantalla)<br/>
-                        - Inicio: Te lleva a la pantalla principal de la aplicación.<br/>
-                        - Fincas: Te muestra la información de tu finca (donde estás ahora).<br/>
-                        - Labores: Te permite ver las tareas programadas para la finca.
+                        El módulo de reportes ofrece un análisis visual e interactivo de los datos financieros y de salud de la finca. En esta vista encontraremos las siguientes opciones:
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>1. Reporte Financiero</strong><br />
+                        - Proporciona un desglose de ingresos y gastos por lotes y para toda la finca.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>2. Reporte General de Salud</strong><br />
+                        - Muestra el estado de las plantas y del suelo.
                     </p>
                 </div>
                 <div className="md:w-1/3">
@@ -35,17 +34,21 @@ const reportes = [
         )
     },
     {
-        title: "Vista de Reportes Financieros",
+        title: "Vista de Reporte Financiero",
         content: (
             <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
                 <div className="md:w-1/2 space-y-4">
                     <p className="text-base sm:text-lg text-gray-700">
-                        - Periodo: Se muestra el periodo del reporte, desde el 01 de noviembre de 2024 hasta el 07 de noviembre de 2024.<br/><br/>
-                        - Lotes Incluidos: Aparece el lote o los lotes que están incluidos en este reporte (aquí, solo el lote 1).<br/><br/>
-                        - se proporciona una breve descripción del reporte. En este caso, explica que se analizarán los ingresos y gastos para el lote 1 y para la finca en general.<br/><br/>
-                        - Sección 1: Comparación de Ingresos y Gastos por Lote:<br/>
-                        En esta sección, puedes ver un gráfico que compara los ingresos y los gastos para cada lote incluido en el reporte.<br/><br/>
-                        Para este ejemplo, el gráfico muestra una barra verde con el valor 1,320,000 (monto en moneda local), que representa los ingresos o gastos del lote 1.
+                        Esta vista incluye:
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>1. Información General</strong><br />
+                        - Detalla el periodo del reporte y los lotes analizados.<br />
+                        - Explica el propósito del reporte: un análisis completo de ingresos y gastos.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>2. Comparación de Ingresos y Gastos</strong><br />
+                        - Sección visual con gráficos de barras que comparan ingresos y gastos por lote.
                     </p>
                 </div>
                 <div className="md:w-1/3">
@@ -59,16 +62,20 @@ const reportes = [
         )
     },
     {
-        title: "Vista de Distribución de Categorías de Ingresos y Gastos por lote",
+        title: "Sección de Distribución de Categorías de Ingresos y Gastos por Lote",
         content: (
             <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
                 <div className="md:w-1/2 space-y-4">
                     <p className="text-base sm:text-lg text-gray-700">
-                        En esta sección del Reporte Financiero, puedes ver cómo se distribuyen los ingresos y gastos por categorías para cada lote. En este caso, se muestra el lote 1.<br/><br/>
-                        <strong>- Ingresos por Categoría:</strong><br/>
-                        Este gráfico circular muestra de dónde vienen los ingresos. En este ejemplo, el 100% de los ingresos provienen de la Venta de café.<br/><br/>
-                        <strong>- Gastos por Categoría:</strong><br/>
-                        Este gráfico circular indica en qué se gasta el dinero. En este ejemplo, los gastos también están clasificados por categoría.
+                        Esta sección presenta gráficos circulares para una visión detallada. Forma parte de la vista de reporte financiero:
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>1. Ingresos por Categoría</strong><br />
+                        - Muestra el porcentaje de ingresos clasificados, como "Venta de café".
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>2. Gastos por Categoría</strong><br />
+                        - Divide los gastos según su uso, como "Pagos a colaboradores".
                     </p>
                 </div>
                 <div className="md:w-1/3">
@@ -82,18 +89,22 @@ const reportes = [
         )
     },
     {
-        title: "Vista de Resumen Financiero de la Finca",
+        title: "Sección de Resumen Financiero de la Finca",
         content: (
             <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
                 <div className="md:w-1/2 space-y-4">
                     <p className="text-base sm:text-lg text-gray-700">
-                        Resumen de Datos Financieros:<br/>
-                        - Total, Ingresos: $1,320,000<br/>
-                        - Total, Gastos: $2,368<br/>
-                        - Balance Financiero: $1,317,632 (resultado de restar los gastos de los ingresos)<br/><br/>
-                        Distribución de Ingresos y Gastos de la Finca:<br/>
-                        - Se presenta un gráfico circular que muestra la fuente principal de ingresos o gastos.<br/>
-                        - En este ejemplo, el 100% de los ingresos proviene de la Venta de café.
+                        Esta sección forma parte de la vista de reporte financiero y está ubicada después de la sección de distribución de categorías de ingresos y gastos por lote. Incluye:
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>Resumen de Datos Financieros</strong><br />
+                        - <strong>Total de Ingresos:</strong> Ejemplo, $1,320,000.<br />
+                        - <strong>Total de Gastos:</strong> Ejemplo, $2,368.<br />
+                        - <strong>Balance Financiero:</strong> Ejemplo, $1,317,632.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>Gráficos Circulares</strong><br />
+                        - Representan la distribución de ingresos y gastos principales.
                     </p>
                 </div>
                 <div className="md:w-1/3">
@@ -107,24 +118,29 @@ const reportes = [
         )
     },
     {
-        title: "Vista de Distribución de Gastos, Análisis y conclusiones",
+        title: "Sección de Distribución de Gastos, Análisis y Conclusiones",
         content: (
             <div className="flex flex-col items-center space-y-8 md:space-y-0 md:space-x-8 md:flex-row">
                 <div className="md:w-1/2 space-y-4">
+                <p className="text-base sm:text-lg text-gray-700">
+                        Esta sección es posterior a la sección de resumen financiero de la finca e incluye:
+                    </p>
                     <p className="text-base sm:text-lg text-gray-700">
-                        Esta es la última sección del Reporte Financiero. Aquí encontrarás el desglose de gastos, análisis del rendimiento y recomendaciones para la finca.<br/><br/>
-                        Distribución de Gastos de la Finca:<br/>
-                        - Se presenta un gráfico circular que muestra el destino principal de los gastos.<br/>
-                        - En este ejemplo, el 100% de los gastos está destinado a Pagos a colaboradores.<br/><br/>
-                        Análisis y Recomendaciones:<br/>
-                        - Aquí se ofrece una evaluación sobre el rendimiento de los lotes.<br/>
-                        - Para el lote 1, el rendimiento es calificado como Excelente. Se recomienda mantener o incrementar la inversión en este lote debido a su buen desempeño.<br/><br/>
-                        Conclusiones:<br/>
-                        - Esta sección proporciona un resumen general de la situación económica de la finca.<br/>
-                        - El reporte cubre el periodo del 01 al 07 de noviembre de 2024.<br/>
-                        - Basado en el análisis, se recomienda implementar las acciones propuestas para mejorar el rendimiento financiero y asegurar la sostenibilidad y crecimiento de la finca.<br/><br/>
-                        Botón PDF:<br/>
-                        En la esquina inferior derecha, el botón "PDF" permite descargar esta sección completa en formato PDF.
+                        <strong>1. Distribución de Gastos</strong><br />
+                        - Un gráfico circular divide los gastos principales, como "Pagos a colaboradores".
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>2. Análisis y Recomendaciones</strong><br />
+                        - Incluye evaluaciones de rendimiento por lote.<br />
+                        - Sugerencias para mejorar la sostenibilidad.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>3. Conclusiones</strong><br />
+                        - Resumen del estado financiero con recomendaciones para el periodo analizado.
+                    </p>
+                    <p className="text-base sm:text-lg text-gray-700">
+                        <strong>4. Descarga en PDF</strong><br />
+                        - Pulsa el botón PDF para obtener una copia descargable del reporte completo.
                     </p>
                 </div>
                 <div className="md:w-1/3">

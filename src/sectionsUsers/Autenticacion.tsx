@@ -1,12 +1,18 @@
 import { Section } from "./Section";
 import Descarga from "../assets/Descarga.jpg";
 import Desconocidas from "../assets/Desconocidas.png";
-import Registrarse1 from "../assets/Registrarse1.jpg";
+import Registrarse1 from "../assets/registrarse1.jpg";
+import Registrarse2 from "../assets/registrarse2.jpeg";
+import Registrarse3 from "../assets/registrarse3.jpeg";
+// import Registrarse4 from "../assets/registrarse4.jpeg";
+import Reestablecer1 from "../assets/registrarse5.jpeg";
+import Reestablecer2 from "../assets/registrarse6.jpeg";
+import Reestablecer3 from "../assets/registrarse7.jpeg";
 import Token from "../assets/Token.png";
 import Inicio from "../assets/Inicio.jpg";
-import Reestablecer1 from "../assets/Reestablecer1.jpg";
-import Reestablecer2 from "../assets/Reestablecer2.png";
-import Reestablecer3 from "../assets/Reestablecer3.jpg";
+// import Reestablecer1 from "../assets/Reestablecer1.jpg";
+// import Reestablecer2 from "../assets/Reestablecer2.png";
+// import Reestablecer3 from "../assets/Reestablecer3.jpg";
 import IrMenu from "../assets/irmenu.jpg";
 import Perfil from "../assets/perfil.jpg";
 import GuardarPerfil from "../assets/guardarPerfil.jpg";
@@ -130,6 +136,22 @@ const autenticacion = [
 
           <div className="flex justify-center">
             <img
+              src={Registrarse2}
+              alt="Pantalla de registro en Coffee Tech"
+              className="w-full max-w-[100px] rounded-lg shadow-md"
+            />
+          </div>
+
+          <div className="flex justify-center">
+            <img
+              src={Registrarse3}
+              alt="Pantalla de registro en Coffee Tech"
+              className="w-full max-w-[100px] rounded-lg shadow-md"
+            />
+          </div>
+
+          <div className="flex justify-center">
+            <img
               src={Token}
               alt="Formulario de confirmación de contraseña"
               className="w-full rounded-lg shadow-md"
@@ -195,12 +217,12 @@ const autenticacion = [
           <img
             src={Reestablecer2}
             alt="Pantalla de restablecimiento 2"
-            className="w-full max-w-[400px] rounded-lg shadow-md ml-6"
+            className="w-full max-w-[200px] rounded-lg shadow-md ml-6"
           />
           <img
             src={Reestablecer3}
             alt="Pantalla de restablecimiento 3"
-            className="w-full max-w-[100px] rounded-lg shadow-md -ml-4"
+            className="w-full max-w-[200px] rounded-lg shadow-md -ml-4"
           />
         </div>
       </div>
